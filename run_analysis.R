@@ -59,14 +59,6 @@ cleanVarNames <- function(vars) {
   vars <- sub("BodyBody", "Body", vars)
 }
 
-#cleanVarNames2 <- function(vars) {
-#  vars <- gsub("\\.+", "", vars)
-#  vars <- sub("^t", "time", vars)
-#  vars <- sub("^f", "freq", vars)
-#  vars <- sub("BodyBody", "Body", vars)
-#  vars <- tolower(vars)
-#}
-
 # calculate the mean of each variable by activity and subject
 # INPUT : the records data frame
 # RETURN : a dataframe  containing the mean of each variable by activity and subject
