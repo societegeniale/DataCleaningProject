@@ -18,5 +18,5 @@ After running run_analysis.R you will find the data set :
 
 ### Howto run
 
-Extract the HAR data from this link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. the "UCI HAR Dataset" directory must be in the same directory as the script run_analysis.R.
-Run run_analysis.R in R, it will output the data set meanMotionRecords.txt
+* Extract the HAR data from this link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The "UCI HAR Dataset" directory must be in the working directory where is run run_analysis.R.
+* Run run_analysis.R in R, it will output the data set meanMotionRecords.txt
